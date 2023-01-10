@@ -8,3 +8,262 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+
+
+@media (max-width: 768px) {
+    
+    body {
+        background-color: #540b51;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px;
+
+    }
+
+    .logo {
+        display: flex;
+        width: 150px;
+        
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .menu {
+        background-color: #540b51;
+        border: none;
+    }
+
+    h1 {
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+        font-size: 50px;
+        text-align: center;
+        
+    }
+
+    header p {
+        color: ECB12F;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .sign-up {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 200px;
+        margin: auto;
+
+    }
+
+    .sign {
+        color: #000000;
+        background-color: white;
+        border-color: #540b51;
+        margin-bottom: 20px;
+    }
+
+    .sign-google {
+        color: white;
+        background-color:#4285F4;
+        border-color: #540b51;
+        margin-bottom: 50px;
+    }
+
+    .sign-google img {
+        margin: 10px;
+        width: 20px;
+        border-radius: 5px;
+    }
+
+    .photo1 {
+        margin: 20px;
+        width: 150%;
+    }
+
+    .main {
+        background-color: #F3EAE2;
+    }
+
+    .main p {
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .logos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .logos img {
+        width: 100px;
+    }
+
+    .logos2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .logos2 img {
+        margin: 40px;
+        width: 200px;
+    }
+
+    .photo2 img {
+        width: 95%;
+    }
+
+    h2 {
+        text-align: center;
+        font-size:40px;
+    }
+
+    .text p {
+        text-align: left;
+        font-size:20px;
+    }
+
+    .text span {
+        text-align: left;
+        font-size:20px;
+    }
+
+    .text2 p {
+        text-align: left;
+        font-size:20px;
+    }
+
+    .text2 span {
+        text-align: left;
+        font-size:20px;
+    }
+
+    .photo3 img {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .photo4 img {
+        width: 95%;
+        margin-top: 100px;
+    }
+
+    .text3 h2 {
+        text-align: left;
+        font-size:40px;
+    }
+
+    .text3 span {
+        text-align: left;
+        font-size:20px;
+    }
+
+    .photo5 {
+        background-color: white;
+    }
+
+    .photo5 h3 {
+        text-align: center;
+        font-size:40px;
+        margin-top: 60px;
+    }
+
+    .photo5 p {
+        text-align: center;
+        font-size:20px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 500px;
+        font-size: 20px;
+        margin: auto;
+    }
+
+    .purple {
+        color: white;
+        background-color:#540b51;
+        border-color: #540b51;
+        margin-bottom: 20px;
+    }
+
+    .buttonp {
+        color: #540b51;
+        background-color: white;
+        border-color: #540b51;
+        margin-bottom: 50px;
+    }
+
+    .per span {
+        color: #540b51;
+        font-size: 60px;
+        font-style: bold;
+    }
+
+    .per li {
+        list-style-type: none;
+    }
+
+    .section1 {
+        background-color: #540b51;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 500px;
+        margin: auto;
+        
+    }
+
+    .section1 h3 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .try {
+        color: #540b51;
+        background-color:white;
+        border-color: white;
+        margin-bottom: 20px;
+    }
+
+    .sales {
+        color: white;
+        background-color:#540b51;
+        border-color: white;
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        background-color: white;
+    }
+
+    .footer img {
+        width: 80px;
+        margin: 40px;
+    }
+
+    .footer li {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style-type: none;
+    }
+
+  }
