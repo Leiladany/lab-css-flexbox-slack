@@ -9,6 +9,50 @@ links blue: #2E71A6
 footer links grey: #454245
 */
 
+body {
+    background-color: #540b51;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+nav ul {
+    display: flex;
+    
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px;
+    font-style: none;
+}
+
+nav li a:link {
+    text-decoration: none;
+    color: white;
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu:second-child {
+    display: none;
+}
+
+.logo {
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+}
+
+
+
 
 
 @media (max-width: 768px) {
@@ -16,6 +60,7 @@ footer links grey: #454245
     body {
         background-color: #540b51;
     }
+    
 
     nav {
         display: flex;
@@ -266,4 +311,89 @@ footer links grey: #454245
         list-style-type: none;
     }
 
+  }
+
+  @media screen and (min-width:768px) and (max-width: 1024px) {
+
+    body {
+        background-color: #540b51;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px;
+
+    }
+
+    .logo {
+        display: flex;
+        width: 150px;
+        
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .menu {
+        background-color: #540b51;
+        border: none;
+    }
+
+    h1 {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size: 120px;
+        margin-left: 40px;
+        text-align: left;
+        
+    }
+
+    header p {
+        color: ECB12F;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .sign-up {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 200px;
+        margin: auto;
+
+    }
+
+    .sign {
+        color: #000000;
+        background-color: white;
+        border-color: #540b51;
+        margin-bottom: 20px;
+    }
+
+    .sign-google {
+        color: white;
+        background-color:#4285F4;
+        border-color: #540b51;
+        margin-bottom: 50px;
+    }
+
+    .sign-google img {
+        display: flex;
+        justify-content: end;
+        margin: 10px;
+        width: 20px;
+        border-radius: 5px;
+    }
+
+    .photo1 {
+        margin: 20px;
+        width: 150%;
+    }
+    
   }
